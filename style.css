@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+} 
+
+body{
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #dde1e7;
+}
+.wrapper{
+      background-color: #dde1e7;
+      box-shadow: -3px -3px 7px #ffffff73,
+      3px 3px 5px rgba(94,104,121,0.288);
+      padding: 20px 30px;
+      width: fit-content;
+      text-align: center;
+}
+.wrapper h1{
+      font-size: 200px;
+      margin-top: -40px;
+      color: #acadaf;
+      text-shadow: -3px -3px 7px #ffffff73,
+      3px 3px 5px rgba(94,104,121,0.288);
+}
+.wrapper h2{
+      color: #565657;
+      text-shadow: inset -3px -3px 7px #ffffff73,
+      inset 3px 3px 5px rgba(94,104,121,0.288);
+}
+.wrapper button{
+      padding: 7px 20px;
+      font-size: 15px;
+      border-radius: 20px;
+      border: none;
+      background-color: #dde1e7;
+      color: #5a5a5a;
+      font-weight: bold;
+      margin: 30px 30px 0 60px;
+      box-shadow: -3px -3px 7px #ffffff73,
+      3px 3px 5px rgba(94,104,121,0.288);
+      cursor: pointer;
+}
+.wrapper button:hover{
+      box-shadow: inset -3px -3px 7px #ffffff73,
+      inset 3px 3px 5px rgba(94,104,121,0.288);
+}
+.wrapper button:focus{
+      box-shadow: inset -3px -3px 7px #ffffff73,
+      inset 3px 3px 5px rgba(94,104,121,0.288);
+}
